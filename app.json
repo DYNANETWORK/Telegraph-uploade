@@ -1,5 +1,5 @@
 {
-    "name": "MAMBA TELEGRAPH UPLOADER",
+    "name": "DYNA TELEGRAPH UPLOADER",
     "description": "A bot that can upload medias to Telegra.ph😎⚡",
     "logo": "https://telegra.ph/file/d7828fc8b3d17f922b153.jpg",
     "keywords": [
@@ -9,10 +9,10 @@
         "Benchamxd"
     ],
     "website": "",
-    "repository": "https://github.com/SUKHPAL443/ULTRATGUPLOADER",
-    "success_url": "t.me/MAMBA_X_SUPPORT",
+    "repository": "https://t.me/DYNA_NETWORK",
+    "success_url": "t.me/DYNA_SUPPORT",
     "env": {
-        "TG_BOT_TOKEN": {
+        "TOKEN": {
             "description": "You Telegram Bot Token from @BotFather",
             "value": ""
         },
