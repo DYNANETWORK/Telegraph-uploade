@@ -12,24 +12,24 @@ psycho = Client(
 DOWNLOAD_LOCATION = os.environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/")
 
 START_TEXT = """
-H![✨](https://telegra.ph/file/1434d9d0eb6a8bf00456a.jpg)
-I am Telegraph Media Converter🧳 Create by Psychobots 
+H![✨](https://telegra.ph/file/f4178dd3d119c019337e0.jpg)
+I am Telegraph Media Converter🧳 Create by Dyna with the help of @Psycho_Bots
 I can create Pictures under 5MB
 
-~ @Psycho_Bots ~
+~ @Dyna_network ~
 """
 HELP_TEXT = """
 - Just give me a media under 5MB
 - Then I will download it
 - I will then upload it to the telegra.ph link
 
-Support ~ @Psycho_Bots ~
+Support ~ @DYNA_SUPPORT ~
 """
 ABOUT_TEXT = """
 - **Bot :** `Telegraph Uploader`
 - **Python3 :** `3.9.6`
-- **Updates Channel: **[Psycho_Bots](t.me/Psycho_Bots)
-- **Support :** [PsychoBots](t.me/PsychoBots_chat)
+- **Updates Channel: **[Update](t.me/DYNA_NETWORK)
+- **Support :** [Support](t.me/DYNA_SUPPORT)
 
 """
 START_BUTTONS = InlineKeyboardMarkup(
@@ -48,8 +48,8 @@ HELP_BUTTONS = InlineKeyboardMarkup(
     )
 ABOUT_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Support', url="t.me/PsychoBots_chat"),
-        InlineKeyboardButton('Updates', url='https://t.me/Psycho_Bots')
+        InlineKeyboardButton('Support', url="t.me/DYNA_SUPPORT"),
+        InlineKeyboardButton('Updates', url='https://t.me/DYNA_NETWORK')
         ],
         [
         InlineKeyboardButton('Home', callback_data='home'),
@@ -125,13 +125,13 @@ async def getmedia(bot, update):
             reply_markup=reply_markup
         )
         return
-    text=f"**Link :-** `https://telegra.ph{response[0]}`\n\n**Join :-** @psycho_Bots"
+    text=f"**Link :-** `https://telegra.ph{response[0]}`\n\n**Join :-** @DYNA_NETWORK"
     reply_markup=InlineKeyboardMarkup(
         [[
         InlineKeyboardButton(text="Open Link", url=f"https://telegra.ph{response[0]}"),
         InlineKeyboardButton(text="Share Link", url=f"https://telegram.me/share/url?url=https://telegra.ph{response[0]}")
         ],[
-        InlineKeyboardButton(text="Join Updates Channel", url="https://telegram.me/psycho_Bots")
+        InlineKeyboardButton(text="Join Updates Channel", url="https://telegram.me/DYNA_NETWORK")
         ]]
     )
     await message.edit_text(
@@ -142,5 +142,5 @@ async def getmedia(bot, update):
 
 psycho.run()
 
-# © Psycho_Bots #
+# © DYNA_NETWORK #
 
