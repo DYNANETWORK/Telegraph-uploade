@@ -20,6 +20,10 @@ class Var(object):
 
 ```
 
+# DEPLOY TO HEROKU
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/SUKHPAL443/ULTRATGUPLOADER)
+
 ### This bot is created to get telegra.ph links of images...
 
 # Sᴜᴘᴘᴏʀᴛ 
